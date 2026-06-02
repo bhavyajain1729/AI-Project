@@ -1,0 +1,9 @@
+You place .p files in the input folder
+The system reads each file
+It sends file content to the LLM (Groq)
+LLM returns JSON (module, summary, tables, procedures, etc.)
+The system classifies the file into a module folder
+It optionally renames the file
+It creates docs for each file
+It writes metadata.json
+It builds a simple architecture diagram

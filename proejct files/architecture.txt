@@ -1,0 +1,27 @@
+[User / UI]
+    |
+    v
+[Input Folder: .p files]
+    |
+    v
+[Processing Engine (main.py)]
+    |
+    +--> [LLM Client (Groq)]
+    |
+    +--> [Classification + Rename]
+    |
+    +--> [Docs Generator]
+    |
+    +--> [Metadata + Architecture Builder]
+    |
+    v
+[Output Folder]
+
+
+Components:
+
+UI (app.py) – Upload files + run pipeline
+Pipeline (main.py) – Core logic
+LLM Client (llm_client.py) – Groq API calls
+Prompt (prompts.py) – Template for LLM JSON response
+Output – Organized files, docs, metadata

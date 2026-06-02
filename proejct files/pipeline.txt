@@ -1,0 +1,13 @@
+Load settings from .env
+Read .p files in input folder
+Truncate large files to max length
+Send prompt to LLM
+Parse JSON result
+Decide module bucket
+High confidence → module folder
+Medium → Review/
+Low → Unknown/
+Copy/rename file into output folder
+Generate docs per file
+Update metadata.json
+Generate architecture graph
